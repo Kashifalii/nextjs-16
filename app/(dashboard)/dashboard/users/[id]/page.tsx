@@ -1,5 +1,3 @@
-import React from "react";
-
 const UserDetail = async ({ params }: { params: { id: string } }) => {
   const { id } = await params;
 
